@@ -1,5 +1,7 @@
-# install programms
+# add or generate ssh keys
+# https://serverfault.com/questions/253313/ssh-returns-bad-owner-or-permissions-on-ssh-config
 
+# install programms
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install git build-essential curl
@@ -15,7 +17,8 @@ rm google-chrome-stable_current_amd64.deb
 # have a look at this: https://www.tuxedocomputers.com/de/Infos/Hilfe-Support/Haeufig-gestellte-Fragen/Was-ist-eigentlich-TUXEDO-Tomte-.tuxedo
 
 # install dotfiles
-
+cd $HOME
+git clone git@github.com:noahzarro/.dotfiles.git
 rm $HOME/.bashrc
 ln -s $HOME/.dotfiles/.bash_aliases $HOME/.bash_aliases
 ln -s $HOME/.dotfiles/.bash_exports $HOME/.bash_exports
