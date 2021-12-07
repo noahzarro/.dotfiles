@@ -1,10 +1,11 @@
 # add or generate ssh keys
 # https://serverfault.com/questions/253313/ssh-returns-bad-owner-or-permissions-on-ssh-config
 
-# install programms
+# install programs
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install git build-essential curl mpg123
+sudo apt-get install git build-essential curl mpg123 sshfs python3-virtualenv gimp pinta 
+sudo snap install xournalpp
 
 # docker https://docs.docker.com/engine/install/ubuntu/
 curl -fsSL https://get.docker.com -o get-docker.sh && chmod +x get-docker.sh && ./get-docker.sh
@@ -26,3 +27,5 @@ ln -s $HOME/.dotfiles/.bashrc $HOME/.bashrc
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 
 echo "install the following shortcut: killall zoom && mpg123 /home/noah/.dotfiles/hass-hass-hass.mp3"
+
+echo "install vs code: https://code.visualstudio.com/docs/setup/linux"
