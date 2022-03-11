@@ -4,7 +4,7 @@
 # install programs
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install git build-essential curl mpg123 sshfs python3-virtualenv gimp pinta 
+sudo apt-get install git build-essential curl mpg123 sshfs python3-virtualenv gimp pinta sl vlc
 sudo snap install xournalpp
 
 # docker https://docs.docker.com/engine/install/ubuntu/

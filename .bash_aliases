@@ -10,9 +10,10 @@ alias meuler="sshfs zarron@euler.ethz.ch:/cluster/home/zarron/lecture/ /home/noa
 alias umeuler="fusermount -u /home/noah/ETH/Semester11/HighPerformanceComputing/eulerMount"
 
 # convenience
-alias ETH="cd /home/noah/ETH/Semester11/ && ls"
+alias ETH="cd /home/noah/ETH/Semester12/ && ls"
 alias eth="ETH"
 alias open="xdg-open"
+alias activate="source venv/bin/activate"
 
 # shit
 alias luft="meuler || cd /home/noah/ETH/Semester11/HighPerformanceComputing/eulerMount/exercises/ex04/skeleton_code/q2 && make run_hard && umeuler"
